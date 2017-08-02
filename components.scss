@@ -1,0 +1,5 @@
+@each $class, $value in $gridi-helpers-flexbox-flex-direction-classes {
+    .#{$class} {
+        @include flex-direction($value);
+    }
+}
